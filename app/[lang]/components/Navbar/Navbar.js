@@ -153,6 +153,7 @@ export default async function Navbar({ lang }) {
                     className="font-bold transition-all hover:text-blue-500 hover:underline"
                     href={`/${lang}/courses`}
                   >
+                    
                     {Navbar.courses}
                   </Link>
                   <Link
