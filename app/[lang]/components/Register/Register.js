@@ -16,7 +16,7 @@ const Register = () => {
   console.log(session);
   if (session) {
     return (
-      <div>
+      <div className="sm:block hidden">
         <DropdownMenu>
           <DropdownMenuTrigger asChild className="cursor-pointer">
             <img src={session.user.image} className="w-10 h-10 rounded-full" />
@@ -33,14 +33,6 @@ const Register = () => {
             ) : (
               <DropdownMenuItem>Profile</DropdownMenuItem>
             )}
-            {session.user?.email === process.env.NEXT_PUBLIC_EMAIL ||
-            session.user?.email === process?.env.NEXT_PUBLIC_GITHUB ? (
-              <Link href={"/instructors"} className="cursor-pointer">
-                <DropdownMenuItem>instructors</DropdownMenuItem>
-              </Link>
-            ) : (
-              ""
-            )}
             <DropdownMenuItem onClick={() => signOut("/")}>
               Chiqish
             </DropdownMenuItem>
@@ -50,7 +42,7 @@ const Register = () => {
     );
   }
   return (
-    <div>
+    <div className="sm:block hidden">
       <Link href={"/sing-in"}>
         <Button variant="outline">Royxatdan otish</Button>
       </Link>

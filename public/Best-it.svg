@@ -1,0 +1,37 @@
+   <svg
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="50"
+                  height="50"
+                  rx="22"
+                  fill="url(#paint0_linear_28_728)"
+                ></rect>
+                <text
+                  x="25"
+                  y="30"
+                  font-size="20"
+                  text-anchor="middle"
+                  fill="white"
+                  font-family="Arial"
+                >
+                  B
+                </text>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_28_728"
+                    x1="39"
+                    y1="45"
+                    x2="5"
+                    y2="6"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#6440FB"></stop>
+                    <stop offset="1" stop-color="#8466FF"></stop>
+                  </linearGradient>
+                </defs>
+              </svg>
