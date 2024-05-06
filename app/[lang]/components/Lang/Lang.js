@@ -21,7 +21,7 @@ const Lang = () => {
   };
 
   return (
-    <div >
+    <div>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="outline">

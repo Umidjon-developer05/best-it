@@ -1,9 +1,13 @@
-import Image from "next/image";
+import { getDictionary } from "@/lib/dictionary";
+import Main1 from "./components/Main1/Main1";
+import About from "./components/about/about";
 
-export default function Home() {
+export default async function Home({ params: { lang } }) {
+  const { Main } = await getDictionary(lang);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    
+    <main>
+      <Main1 Main={Main} />
+      <About />
     </main>
   );
 }

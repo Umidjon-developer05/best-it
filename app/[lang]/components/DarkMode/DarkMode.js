@@ -13,7 +13,7 @@ const DarkMode = () => {
   const { setTheme } = useTheme();
 
   return (
-    <div >
+    <div>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="outline" size="icon">

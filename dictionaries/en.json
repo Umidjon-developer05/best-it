@@ -1,8 +1,13 @@
 {
   "Navbar": {
     "Home": "Home",
-    "courses": "Courses",
+    "courses": "Services",
     "blog": "Portfolio",
     "Contact": "Contact"
+  },
+  "Main": {
+    "title": "BEST-IT company take your knowledge to the next level",
+    "description": "Cooperate with our company",
+    "button":"Contact US"
   }
 }

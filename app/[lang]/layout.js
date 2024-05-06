@@ -16,9 +16,9 @@ export async function generateStaticParams() {
 
 export default function RootLayout({ children, params }) {
   return (
-    <AuthProvider>
-      <html lang={params?.lang ? params?.lang : "uz"}>
-        <body className={inter.className}>
+    <html lang={params?.lang ? params?.lang : "uz"}>
+      <body className={inter.className}>
+        <AuthProvider>
           <link rel="icon" href="/Best-it.svg" type="image/x-icon" />
           <link
             rel="stylesheet"
@@ -33,8 +33,8 @@ export default function RootLayout({ children, params }) {
             <Navbar lang={params.lang} />
             {children}
           </ThemeProvider>
-        </body>
-      </html>
-    </AuthProvider>
+        </AuthProvider>
+      </body>
+    </html>
   );
 }

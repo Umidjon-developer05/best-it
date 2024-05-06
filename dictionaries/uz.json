@@ -1,8 +1,13 @@
 {
   "Navbar": {
     "Home": "Bosh sahifa",
-    "courses": "Kurslar",
+    "courses": "Xizmatlar",
     "blog": "Portfolio",
-    "Contact": "Kontakt"
+    "Contact": "Bog’lanish"
+  },
+  "Main":{
+    "title": "BEST-IT kompaniyasi Bilimingizni keyingi bosqichga olib chiqing",
+    "description":"Bizning kompaniya bilan hamkorlik qiling ",
+    "button": "Biz bilan bog'lanish"
   }
 }
