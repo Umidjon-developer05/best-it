@@ -11,7 +11,6 @@ import {
 import { Button } from "@/components/ui/button";
 const DarkMode = () => {
   const { setTheme } = useTheme();
-
   return (
     <div>
       <DropdownMenu>

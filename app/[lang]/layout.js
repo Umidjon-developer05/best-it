@@ -6,7 +6,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/app/[lang]/components/Navbar/Navbar";
 import AuthProvider from "@/components/AuthProvider/AuthProvider";
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata = {
   title: "BEST-IT | Company",
 };
@@ -19,7 +18,7 @@ export default function RootLayout({ children, params }) {
     <html lang={params?.lang ? params?.lang : "uz"}>
       <body className={inter.className}>
         <AuthProvider>
-          <link rel="icon" href="/Best-it.svg" type="image/x-icon" />
+          <link rel="icon" href="/favicon.svg" type="image/x-icon" />
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
